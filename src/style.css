@@ -1,0 +1,398 @@
+/* geral */
+*{
+    margin: 0;
+    font-family: 'PT Sans', sans-serif; 
+}
+
+section{
+    margin-top: 20px;
+}
+
+header{
+    margin:0;
+}
+
+li{
+    display: inline-block;
+}
+
+li a{
+    text-decoration: none;
+}
+
+/* header */
+#navbar{
+    background-color: #F6F6F6;
+    color: #000000;
+    height: 80px;
+}
+
+#logo{
+    float:left;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+#menu{
+    float:right;
+}
+
+#links{
+    float: left;
+    line-height: 60px;
+    padding-right: 400px;
+    position: relative;
+    top:10px;
+}
+
+#links a{
+    color: #000000;
+    padding: 7px;
+}
+
+#icons{
+    float: right;
+    line-height: 70px;
+    padding-right: 20px;
+    position: relative;
+    top:10px;
+}
+
+#icons img{
+    padding: 3px;
+}
+
+/* Banner-Principal */
+#banner-principal{
+    clear: both;
+    margin-bottom: 20px;
+    height: 70vh; 
+}
+
+/* destaques */
+#destaques{
+    height: 230px;
+    width: 100%;
+}
+
+.circle{
+    padding: 20px 60px;
+    margin-left: 40px;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.circle img{
+    border-radius: 100%;
+    bottom: 0;
+    width: 100%;
+}
+
+#lista-circ{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 70px;
+    right: 350px;
+}
+
+#lista-circ img{
+    padding: 0 20px;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*section 1 */
+#section1{
+    display: flex;
+    flex-direction: row;
+    background-color:#F5E5D9;
+    width: 100%;
+    height: 500px;
+}
+
+#txt-section1 {
+    width: 600px;
+    text-align: left;
+    padding-left: 40px;;
+}
+
+#txt-section1 h4{
+    position: relative;
+    top: 45px; 
+}
+
+#txt-section1 h1{
+    position: relative;
+    top: 60px; 
+    font-size: 40px;
+}
+
+#txt-section1 p{
+    position: relative;
+    top: 80px; 
+    font-size: 12px;
+}
+
+#txt-section1 img{
+    position: relative;
+    top: 290px;
+}
+
+#img-section1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+#img-section1 h5{
+    font-size: 14px;
+    margin: 5px 90px;
+    font-weight: bold;
+}
+
+#img-section1 p{
+    font-size: 10px; 
+    margin-top: 10px;
+}
+
+#bloco1{
+    width: 410px;
+}
+
+#bloco2{
+    width: 410px;
+}
+
+.sec1{
+    position: relative;
+    top: 70px;
+}
+
+.sec2{
+    position: relative;
+    top: 30px;
+}
+
+.sec3{
+    position: relative;
+    top: 30px;
+
+}
+
+.target{
+    margin-top: -10px;
+    margin-left: 45px;
+    margin-right: 45px;
+    background-color: #F5E5D9;
+    padding: 20px 0;
+}
+
+/*section 2 */
+#section2{
+    background-color: #fff;
+    width:100%;
+    height:350px;
+}
+
+/*section 3 */
+#section3{
+    display: flex;
+    flex-direction: row;
+    background-color:#F5E5D9;
+    width: 85%;
+    height: 400px;
+}
+
+#img-section3{
+    width: 27%;
+    position: relative;
+    right: 15px;
+    text-align: right;
+}
+#img-section3 img{
+    position: relative;
+    top: 50px; 
+}
+
+#txt-section3 {
+    width: 28%;
+    text-align: left;
+}
+
+#txt-section3 h4{
+    position: relative;
+    top: 45px; 
+}
+
+#txt-section3 h1{
+    position: relative;
+    top: 60px; 
+    font-size: 40px;
+}
+
+#txt-section3 p{
+    position: relative;
+    top: 80px; 
+    font-size: 12px;
+}
+
+#txt-section3 input{
+    background-color: #000000;
+    color: #fff;
+    position: relative;
+    top:110px;
+}
+
+/*instagram-section*/
+#instagram-section{
+    background-color: #fff;
+    width: 100%;
+    height: 650px;
+    margin-top: 50px;
+    padding-top: 30px;;
+    text-align: center;  
+}
+
+#instagram-section h2{
+    position: relative;
+    font-weight: normal;
+}
+
+#li1{
+    position: relative;
+    right: 30px;
+}
+
+#li2{
+    position: relative;
+    top: 80px;
+}
+
+#li3{
+    position: relative;
+    left: 30px;
+}
+
+/*Footer*/
+#logo-rodape{
+    text-align: center;
+    position: relative;
+    top: -25px;
+
+}
+
+#rodape{
+    background-color:#fff;
+    height: 200px; 
+    width: 100%; 
+}
+
+#rodape .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rodape-container{
+    flex: 1 1 1;
+    text-align: center;
+    padding: 60px;
+    font-size: 15px;
+}
+
+.rodape-container h4{
+    font-weight: normal;
+    position: relative;
+    top: -30px;
+}
+
+.rodape-container a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.left{
+    position: relative;
+    right:150px;
+    top: 10px;
+}
+
+.left li{
+    padding: 4px;
+}
+
+.center{
+    position: relative;
+    right: 200px;
+    top: 10px;
+}
+
+.right{
+    position: relative;
+    left:100px;
+    top: 10px;
+}
+
+/*Fomulario Rodape */
+form {
+    border-bottom: 1px solid #272727;
+    display: inline-block;
+    padding: 4px;
+    position: relative;
+    left: 160px
+  }
+  
+form > input {
+    color: #272727;
+    font-size: 12px;
+    border: none;
+    background-color: #fff;
+}
+
+#text-input{
+    width:300px
+  }
+
+
+/* Assinatura */
+#assinatura{
+    clear: both;
+    height: 20px;
+    text-align: center;
+    font-size: 10px;
+    position: relative;
+    top:5px;
+}
+
+  .swiper-container{
+    height: 250px;
+    width: 450px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+
+.swiper-slide{
+	background: #272727;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.swiper-button-prev{
+    color:#000000;
+}
+
+.swiper-button-next{
+    color:#000000;
+}
+
+
